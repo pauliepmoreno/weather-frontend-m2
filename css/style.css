@@ -4,12 +4,17 @@ header {
 
 
 .navbar-custom {
-    background-color: #3d1064;
+    background-color: hsl(272, 72%, 23%);
 }
 
 .navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
     color: white !important;
+}
+
+.navbar-custom .nav-link.active {
+    border-bottom: 2px solid white;
+    font-weight: 600;
 }
 
 body {
